@@ -19,10 +19,11 @@ body{
     overflow: hidden;
     border-radius: 2px; 
     user-select: none;
+    transition: .1s ease-in;
 }
 .button:active{
-    background-color: rgb(4, 45, 133);
-    box-shadow: 0 0 70px rgb(4, 45, 133);
+    background-color: #00ffdc;
+    box-shadow: 0 0 20px #00ffdc;
     cursor: pointer;
 }
 .button:active span{
